@@ -1,0 +1,27 @@
+1. How will you tackle the challenge above?
+
+
+ans--Answer 1: First of all, I will   if input is present and check the values then I will return the value,
+however if the input has not contains number , then I will check if the values used in the formula are present in the sheet or not , 
+and if the values in the formula are present then I will calculate the formula and i will return the calculated value as output.
+
+
+2. What type of errors you would you check for?
+ans-: Formulas can sometimes result in error values when we are returning the values.
+for this problem-
+I have to check  for the non integer values . If the values are present I will use the formula, 
+then i will check the errors which are written below
+->	Is the formula calculating the LOG of a negative number?
+->	Is the formula is trying to calculate the special characters instead of actual values?
+->	Is the formula dividing by zero?
+->	Is the formula calculating a value larger than the maximum value of the current type?
+->	Is the formula calculating the square root of a negative number?
+
+
+
+3. How might a user break your code?
+ans:'Break code' means present the output in desireable form so user may try to break our code if any error can be occour and if the exceptions are not handled properly. There are some scenarios where user might break our code. The scenarios can be:
+->	If the code is not tested properly .
+->	If the code is not properly version-controlled.
+->	If the code is not maniting regularly.
+->	If the code does not report errors.
